@@ -3,7 +3,7 @@ int a = 256;
 int b = a / 100;
 int c = a % 10;
 System.Console.WriteLine(b + "" + c);
-System.Console.WriteLine($"{b}{c}");
+//System.Console.WriteLine($"{b}{c}");
 */
 /*
 int a = 487;
@@ -103,8 +103,7 @@ else
     System.Console.WriteLine("Числовыходит за пределы отрезеа [10, 99]");
 }
 */
-
-
+/*
 int a = 103;
 if (a < 10)
 {
@@ -118,7 +117,7 @@ else
         a = a / 10;
         if (a > 0)
         {
-            System.Console.Write(b + ",");
+            System.Console.Write(b + " ,");
         }
         else
         {
@@ -126,3 +125,4 @@ else
         }
     }
 }
+*/
