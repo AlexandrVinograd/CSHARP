@@ -1,4 +1,4 @@
-﻿void printSquares (int limit);
+﻿void printSquares (int limit)
 {
     int i = 1;
     while (i <= limit)
