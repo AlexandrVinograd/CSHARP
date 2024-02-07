@@ -73,7 +73,7 @@ for (int i = 0; i < array.Length; i++)
 }
 System.Console.WriteLine(a);
 */
-
+/*
 double[] array = {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01};
 double max = 0.1;
 double min = 0.1;
@@ -100,3 +100,4 @@ for (int i = 2; i < array.Length; i++)
     }
 }
 System.Console.WriteLine(max - min);
+*/
