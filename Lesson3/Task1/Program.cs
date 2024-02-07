@@ -1,4 +1,4 @@
-﻿double CalculateFormula(int a, int b, int c, int d);
+﻿double CalculateFormula(int a, int b, int c, int d)
 {
     int numenator = a * b;
     int denomenator = c + d;
