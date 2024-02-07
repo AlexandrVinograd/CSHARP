@@ -79,3 +79,50 @@ else
     System.Console.WriteLine("Точка на координатной оси");
 }
 */
+/*
+int a = 23;
+if (a > 9 && a < 100)
+{
+    int b = a / 10;
+    int c = a % 10;
+    if (b > c)
+    {
+        System.Console.WriteLine(b);
+    }
+    else if(c > b)
+    {
+        System.Console.WriteLine(c);
+    }
+    else
+    {
+        System.Console.WriteLine("цифры числа равны");
+    }
+}
+else
+{
+    System.Console.WriteLine("Числовыходит за пределы отрезеа [10, 99]");
+}
+*/
+
+
+int a = 103;
+if (a < 10)
+{
+    System.Console.WriteLine(a);
+}
+else
+{
+    while (a > 0)
+    {
+        int b = a % 10;
+        a = a / 10;
+        if (a > 0)
+        {
+            System.Console.Write(b + ",");
+        }
+        else
+        {
+            System.Console.Write(b);
+        }
+    }
+}
