@@ -3,7 +3,7 @@
     string letters = "";
     foreach (char e in s)
     {
-        if (IsAsciiLetter(e) == true)
+        if (char.IsAsciiLetter(e) == true)
         {
             letters += e;
         }
