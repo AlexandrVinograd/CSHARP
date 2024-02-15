@@ -129,7 +129,6 @@ PrintArray(matrix);
 
 
 System.Console.WriteLine(SumDiagonal(matrix));
-*/
 
 
 
@@ -187,4 +186,42 @@ foreach (double number in means)
     Console.Write($"{number:f}  ");
 }
 System.Console.WriteLine();
+*/
+
+
+/*
+Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+
+Выводится: 1
+*/
+
+int[,] numbers = new int[,] {
+    {1, 2, 3},
+    {1, 1, 0},
+    {7, 8, 2},
+    {9, 10, 11}
+};
+
+int GetMinSumRows(int[,] numbers)
+{
+    int minSum = 100000000;
+    int numbRow = 0;
+    for (int i = 0; i < numbers.GetLength(0); i++)
+    {
+        for (int i = 0; i < numbers.GetLength(1); i++)
+        {
+            int sum += numbers[i,j];
+        }
+        if (sum < minSum)
+        {
+            minSum = sum;
+            numbRow = i;
+        }
+        return numbRow;
+    }
+}
+
+System.Console.WriteLine(GetMinSumRows(int[,] numbers));
+
+
 
